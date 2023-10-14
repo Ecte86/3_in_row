@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "board.h": "c",
+        "main.h": "c",
+        "game.h": "c",
+        "stdbool.h": "c",
+        "ctype.h": "c",
+        "player.h": "c",
+        "conio.h": "c",
+        "random": "c",
+        "utils.h": "c",
+        "iostream": "cpp",
+        "string": "cpp",
+        "sstream": "cpp",
+        "new": "cpp",
+        "vector": "cpp"
+    },
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error",
+    ],
+    "C_Cpp.codeAnalysis.exclude": {
+        "/home/ecte/opt/oscar64/include/**": true,
+    }
+}
