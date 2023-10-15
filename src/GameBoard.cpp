@@ -8,13 +8,14 @@ using namespace opp;
 
 GameBoard::GameBoard() {
     // Initialise the squares
-    BoardSquare squares[3][3] = {
-        {BoardSquare(), BoardSquare(), BoardSquare()},
-        {BoardSquare(), BoardSquare(), BoardSquare()},
-        {BoardSquare(), BoardSquare(), BoardSquare()}
-    };
+    for (int row = 0; row < 3; row++) {
+        for (int col = 0; col < 3; col++) {
+            BoardSquare square = BoardSquare();
+            this->squares[row][col] = square;
+        }
+    }
     emptySquares = 9;
-}
+};
 
 BoardSquare GameBoard::getSquare(int row, int col) {
     msg_assert(row >= 0 && row < 3, "getSquare(): Row out of bounds");
