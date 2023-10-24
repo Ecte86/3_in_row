@@ -16,7 +16,16 @@
         "string": "cpp",
         "sstream": "cpp",
         "new": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "future": "cpp",
+        "cstdlib": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "format": "cpp",
+        "istream": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "variant": "cpp"
     },
     "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
         "clang-diagnostic-error",

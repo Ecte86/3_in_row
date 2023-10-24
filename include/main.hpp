@@ -1,5 +1,0 @@
-#include <opp/iostream.h>
-
-int main(void) {
-    return 0;
-}

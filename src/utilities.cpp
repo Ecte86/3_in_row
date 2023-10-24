@@ -10,3 +10,12 @@ void msg_assert(bool condition, string message) {
         assert(condition);
     }
 }
+
+int find(string str, char c) {
+    for (int i = 0; i < str.size(); i++) {
+        if (str[i] == c) {
+            return i;
+        }
+    }
+    return -1;
+}
